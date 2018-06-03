@@ -25,7 +25,7 @@ $(function() {
 
     span.text(words[0]); //intial word before transitioning
     setTimeout(1000);
-    span.fadeOut(1000);
+    span.fadeOut(1750);
 
     setInterval(changingTheWord, 2750);
 });
