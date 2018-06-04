@@ -3122,6 +3122,14 @@
 
 	/* Custom */
 
-	/* #transitioning-word {
-		bottom: #49bf9d solid 1px;
+	/* .underline-magical {
+		background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+		background-repeat: no-repeat;
+		background-size: 100% 0.08em;
+		background-position: 0 88%;
+		transition: background-size 0.25s ease-in;
+	}
+
+	.underline-magical:hover {
+		background-size: 100% 88%;
 	} */
