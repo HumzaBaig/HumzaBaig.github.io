@@ -49,14 +49,25 @@
 						<h2>Recent Work</h2>
 						<div class="row">
 							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/letsgetcake.gif" alt="" /></a>
+
+								<a href="images/fulls/01.jpg" class="image fit thumb"
+								onmouseover="this.childNodes[1].src = 'images/letsgetcake.gif'"
+								onmouseout="this.childNodes[1].src = 'http://res.cloudinary.com/dzixj0ktk/image/upload/b_rgb:f4845c,c_lpad,h_400,w_640/v1527327764/cakewithstrangerslogo_gxkwgh.png'">
+
+									<img class="letsgetcake-image" src="http://res.cloudinary.com/dzixj0ktk/image/upload/b_rgb:f4845c,c_lpad,h_400,w_640/v1527327764/cakewithstrangerslogo_gxkwgh.png"
+									alt="" />
+
+								</a>
+
 								<h3>Lets Get Cake!</h3>
 								<p>A full-stack, single-page meetup app inspired by <i>TeaWithStrangers</i>.</p>
 								<br />
 								<p>Tech Stack: Ruby on Rails, React.js with the Redux data-flow, and a PostgreSQL database</p>
 							</article>
 							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/simplegeometry.gif" alt="" /></a>
+								<a href="images/fulls/02.jpg" class="image fit thumb">
+									<img class="simplegeometry-image" src="images/simplegeometry.gif" alt="" />
+								</a>
 								<h3>Simple Geometry</h3>
 								<p>A frontend application demostrating <i>Bridson's Algorithm</i> for sampling to create a pointillism effect.</p>
 								<br />
@@ -71,8 +82,10 @@
 							</article>
 							<article class="6u$ 12u$(xsmall) work-item">
 								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-								<h3>Quam neque phasellus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<h3>JavaScript30</h3>
+								<p>30 miscellaneous projects</p>
+								<br />
+								<p>Tech Stack: Only Vanilla Javascript</p>
 							</article>
 						</div>
 						<ul class="actions">
@@ -462,6 +475,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/transitioning-word.js"></script>
+			<script type="assets/js/image-hover.js"></script>
 
 	</body>
 </html>
