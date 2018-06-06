@@ -3124,7 +3124,7 @@
 
 	@media (min-width: 980px) {
 
-		@keyframes slideInFromLeft {
+		@keyframes slideAndFadeInFromLeft {
 		  0% {
 		    transform: translateX(-100%);
 				opacity: 0;
@@ -3135,8 +3135,26 @@
 		  }
 		}
 
+		@keyframes slideInFromLeft {
+			0% {
+		    transform: translateX(-37%);
+		  }
+		  100% {
+		    transform: translateX(0);
+		  }
+		}
+
 		#header {
 			transform: translateX(-100%);
+			animation: slideAndFadeInFromLeft 1s ease-out 0s forwards;
+		}
+
+		#main {
+			transform: translateX(-37%);
 			animation: slideInFromLeft 1s ease-out 0s forwards;
+		}
+
+		.first, .second, .third, .fourth, .fifth, .sixth, .seventh, .eighth, .ninth, .tenth, .eleventh, .twelfth, .thirteenth {
+			display: none;
 		}
 	}
