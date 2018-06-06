@@ -3144,6 +3144,26 @@
 		  }
 		}
 
+		@keyframes slideDownAndFadeIn {
+		  0% {
+		    transform: translateY(-15%);
+				opacity: 0;
+		  }
+		  100% {
+		    transform: translateY(0);
+				opacity: 1;
+		  }
+		}
+
+		@keyframes fadeIn {
+		  0% {
+				opacity: 0;
+		  }
+		  100% {
+				opacity: 1;
+		  }
+		}
+
 		#header {
 			transform: translateX(-100%);
 			animation: slideAndFadeInFromLeft 1s ease-out 0s forwards;
@@ -3154,7 +3174,61 @@
 			animation: slideInFromLeft 1s ease-out 0s forwards;
 		}
 
-		.first, .second, .third, .fourth, .fifth, .sixth, .seventh, .eighth, .ninth, .tenth, .eleventh, .twelfth, .thirteenth {
-			display: none;
+		.first, .second, .twelfth {
+			opacity: 0;
 		}
+
+		.third, .fourth, .fifth, .sixth, .seventh, .eighth, .ninth, .tenth, .eleventh {
+			transform: translateY(-15%);
+			opacity: 0;
+		}
+
+		.first {
+			animation: fadeIn 1s ease-out 1s forwards;
+		}
+
+		.second {
+			animation: fadeIn 1s ease-out 1.75s forwards;
+		}
+
+		.third {
+			animation: slideDownAndFadeIn 1s ease-out 2s forwards;
+		}
+
+		.fourth {
+			animation: slideDownAndFadeIn 1s ease-out 2.25s forwards;
+		}
+
+		.fifth {
+			animation: slideDownAndFadeIn 1s ease-out 2.5s forwards;
+		}
+
+		.sixth {
+			animation: slideDownAndFadeIn 1s ease-out 2.75s forwards;
+		}
+
+		.seventh {
+			animation: slideDownAndFadeIn 1s ease-out 3s forwards;
+		}
+
+		.eighth {
+			animation: slideDownAndFadeIn 1s ease-out 3.25s forwards;
+		}
+
+		.ninth {
+			animation: slideDownAndFadeIn 1s ease-out 3.5s forwards;
+		}
+
+		.tenth {
+			animation: slideDownAndFadeIn 1s ease-out 3.75s forwards;
+		}
+
+		.eleventh {
+			animation: slideDownAndFadeIn 1s ease-out 4s forwards;
+		}
+
+		.twelfth {
+			animation: fadeIn 1s ease-out 5s forwards;
+		}
+
 	}
