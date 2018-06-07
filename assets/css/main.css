@@ -3144,6 +3144,21 @@
 		  }
 		}
 
+		@keyframes slideToTheRight {
+			0% {
+		    transform: translateX(0);
+		  }
+		  45% {
+		    transform: translateX(100vw);
+		  }
+			55% {
+				transform: translateX(100vw);
+			}
+			100% {
+				transform: translateX(0);
+			}
+		}
+
 		@keyframes slideDownAndFadeIn {
 		  0% {
 		    transform: translateY(-15%);
@@ -3172,6 +3187,11 @@
 		#main {
 			transform: translateX(-37%);
 			animation: slideInFromLeft 1s ease-out 0s forwards;
+		}
+
+		.slideRight {
+			animation: slideToTheRight 3.5s ease-out 0s forwards !important;
+			z-index: 10000;
 		}
 
 		.first, .second, .twelfth {
