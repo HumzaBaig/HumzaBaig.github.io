@@ -3,7 +3,7 @@ $(document).ready(function() {
     $('#main').fadeOut(1500, function() {
       $('#main').html(`<section id='one'>
         <header class='major'>
-          <h2>Hi, I'm <span>Humza Baig</span></h2>
+          <h2>Well...</h2>
         </header>
         <p>
           I am an enthusiastic programmer that continuously finds the most efficient ways to solve problems. Two words that describe me well are Math and Computer Science. My current expertise is Full-Stack Development, but have recently set my sights on creating Artificial Intelligence applications, specifically Machine Learning applications.
