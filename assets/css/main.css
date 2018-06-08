@@ -3148,10 +3148,7 @@
 			0% {
 		    transform: translateX(0);
 		  }
-		  45% {
-		    transform: translateX(100vw);
-		  }
-			55% {
+			50% {
 				transform: translateX(100vw);
 			}
 			100% {
@@ -3190,7 +3187,7 @@
 		}
 
 		.slideRight {
-			animation: slideToTheRight 3.5s ease-out 0s forwards !important;
+			animation: slideToTheRight 2.75s ease 0s forwards !important;
 			z-index: 10000;
 		}
 
