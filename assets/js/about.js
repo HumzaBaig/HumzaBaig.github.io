@@ -18,12 +18,20 @@ $(document).ready(function() {
           I am most comfortable with Ruby on Rails, Javascript, and Python at the moment, and would love to give to the community. If there are any project suggestions, or open-source opportunities that I could be apart of, message me.
         </p>
         <ul class='actions'>
-          <li><a href='index.html' class='button'>Back</a></li>
+          <li><a href='/index.html' class='button'>Back</a></li>
         </ul>
       </section>`);
     });
 
     $('#header').addClass('slideRight');
-    $('#main').delay(1000).fadeIn(1500);
+    $('#main').delay(1000).fadeIn(1750);
+
+    setTimeout(function() {
+      $('#header').html(``);
+      $('#header').css('width', '25%');
+      $('#main').css('padding-left', '+=35%');
+      $('#header').css('background', 'no-repeat center/100% url("http://res.cloudinary.com/dzixj0ktk/image/upload/v1528579760/bayoupic_deorbe.jpg")');
+      $('#header').addClass('slideLeft');
+    }, 1500);
   });
 });
