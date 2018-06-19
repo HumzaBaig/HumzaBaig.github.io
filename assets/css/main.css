@@ -3147,9 +3147,14 @@
 		@keyframes slideToTheRight {
 			0% {
 		    transform: translateX(0);
+				opacity: 1;
 		  }
+			50% {
+				opacity: 0;
+			}
 			100% {
 				transform: translateX(100vw);
+				opacity: 0;
 			}
 		}
 
@@ -3200,7 +3205,7 @@
 		}
 
 		.slideRight {
-			animation: slideToTheRight 1.5s ease 0s forwards !important;
+			animation: slideToTheRight 2s ease 0s forwards !important;
 			z-index: 10000;
 		}
 
