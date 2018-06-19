@@ -18,7 +18,7 @@ $(document).ready(function() {
           I am most comfortable with Ruby on Rails, Javascript, and Python at the moment, and would love to give to the community. If there are any project suggestions, or open-source opportunities that I could be apart of, message me.
         </p>
         <ul class='actions'>
-          <li><a href='/index.html' class='button'>Back</a></li>
+          <li><a href='/' class='button'>Back</a></li>
         </ul>
       </section>`);
     });
