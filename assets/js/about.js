@@ -34,7 +34,7 @@ function toAboutPage() {
       $('#header').addClass('slideLeft');
     }, 1500);
 
-    fromAboutPage();
+    setTimeout(fromAboutPage, 1600);
   });
 }
 
