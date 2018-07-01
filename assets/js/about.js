@@ -30,7 +30,7 @@ $(document).ready(function() {
       $('#header').html(``);
       $('#header').css('width', '25%');
       $('#main').css('padding-left', '+=35%');
-      $('#header').css('background', 'no-repeat center/100% url("http://res.cloudinary.com/dzixj0ktk/image/upload/v1528579760/bayoupic_deorbe.jpg")');
+      $('#header').css('background', 'no-repeat center/100% url("https://bit.ly/2yYu2iv")');
       $('#header').addClass('slideLeft');
     }, 1500);
   });
