@@ -152,7 +152,19 @@ function fromAboutPage() {
     $('#main').delay(1000).fadeIn(1750);
 
     setTimeout(function() {
-      $('#header').html(``);
+      $('#header').html(`<div class="inner">
+        <a href="/" class="image avatar"><img src="https://bit.ly/2KxFB1u" alt="Humza Baig" /></a>
+
+        <h1>
+          <strong>Humza Baig</strong>
+
+          <br />
+
+          Software Developer
+        </h1>
+
+
+      </div>`);
       $('#header').css('width', '22%');
       $('#main').css('padding-left', '-=35%');
       $('#header').css('background-color', '#1f1815');
