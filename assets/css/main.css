@@ -3122,6 +3122,14 @@
 
 	/* Custom */
 
+	@media screen and (max-width: 1280px) {
+		.fixWidth {
+			width: 30% !important;
+		}
+	}
+
+
+
 	@media (min-width: 980px) {
 
 		@keyframes slideAndFadeInFromLeft {

@@ -23,6 +23,7 @@ function toAboutPage() {
       </section>`);
     });
 
+    $('#header').removeClass('slideLeft');
     $('#header').addClass('slideRight');
     $('#main').delay(1000).fadeIn(1750);
 
@@ -32,6 +33,7 @@ function toAboutPage() {
       $('#main').css('padding-left', '+=35%');
       $('#header').css('background', 'no-repeat center/100% url("https://bit.ly/2yYu2iv")');
       $('#header').addClass('slideLeft');
+      $('#header').removeClass('slideRight');
     }, 1500);
 
     setTimeout(fromAboutPage, 1600);
@@ -148,6 +150,7 @@ function fromAboutPage() {
       </section>`);
     });
 
+    $('#header').removeClass('slideLeft');
     $('#header').addClass('slideRight');
     $('#main').delay(1000).fadeIn(1750);
 
@@ -166,17 +169,19 @@ function fromAboutPage() {
 
       </div>`);
       $('#header').css('width', '22%');
+      $('#header').addClass('fixWidth');
       $('#main').css('padding-left', '-=35%');
       $('#header').css('background-color', '#1f1815');
       $('#header').css('background-attachment', 'scroll,								fixed');
-      $('#header').css('background-image', 'url("images/overlay.png"), url("../../images/bg.jpg")');
+      $('#header').css('background-image', 'url("assets/css/images/overlay.png"), url("images/bg.jpg")');
       $('#header').css('background-position', 'top left,							top left');
       $('#header').css('background-repeat', 'repeat,								no-repeat');
       $('#header').css('background-size', 'auto,								auto 100%');
       $('#header').addClass('slideLeft');
+      $('#header').removeClass('slideRight');
     }, 1500);
 
-    toAboutPage();
+    setTimeout(toAboutPage, 1600);
   });
 }
 
