@@ -78,7 +78,7 @@ function fromAboutPage() {
               <img src="https://bit.ly/2MztAZY" alt="Simple Geometry Thumbnail" />
             </a>
             <h3 class="sixth">Simple Geometry</h3>
-            <p class="sixth">A frontend application demostrating <i>Bridson's Algorithm</i> for sampling to create a pointillism effect.</p>
+            <p class="sixth">A frontend application demonstrating <i>Bridson's Algorithm</i> for sampling to create a pointillism effect.</p>
             <br />
             <p class="sixth">Tech Stack: Vanilla JavaScript, jQuery, and HTML5/CSS3</p>
           </article>
