@@ -45,7 +45,7 @@ function fromAboutPage() {
     $('#main').fadeOut(1500, function() {
       $('#main').html(`<section id="one first">
         <header class="major first">
-          <h2>Hi, I am <span id="transitioning-word"></span></h2>
+          <h2>Hi, I am <span id="transitioning-word">looking for a job</span></h2>
         </header>
         <p class="first">
           I am an enthusiastic programmer that continuously finds the most efficient ways to solve problems. Two passions of mine are Math and Computer Science. My current expertise is Full-Stack Development, but have recently set my sights on creating Artificial Intelligence applications, specifically Machine Learning applications.
