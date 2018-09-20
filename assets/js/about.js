@@ -6,7 +6,7 @@ function toAboutPage() {
           <h2>Well...</h2>
         </header>
         <p>
-          I am an enthusiastic programmer that continuously finds the most efficient ways to solve problems. Two words that describe me well are Math and Computer Science. My current expertise is Full-Stack Development, but have recently set my sights on creating Artificial Intelligence applications, specifically Machine Learning applications.
+          I am an enthusiastic programmer that continuously finds the most efficient ways to solve problems. Two passions of mine are Math and Computer Science. My current expertise is Full-Stack Development, but have recently set my sights on creating Artificial Intelligence applications, specifically Machine Learning applications.
         </p>
         <p>
           Math was always my favorite subject in and out of school. I did all my assignments, and when it came to formulas, I had everything memorized. Although I thought I was good at math, I realized my senior year in high school that I truly wasn't, at least not yet. I wondered how I could be good at it, if I didn't truly understand it. This is when I started reading books about the great mathematicians and proving theorems from algebra, geometry, and calculus. This love for math helped me understand that to truly get better at something, the fundamentals are key, and this leads to my second passion.
@@ -48,7 +48,7 @@ function fromAboutPage() {
           <h2>Hi, I am <span id="transitioning-word"></span></h2>
         </header>
         <p class="first">
-          I am an enthusiastic programmer that continuously finds the most efficient ways to solve problems. Two words that describe me well are Math and Computer Science. My current expertise is Full-Stack Development, but have recently set my sights on creating Artificial Intelligence applications, specifically Machine Learning applications.
+          I am an enthusiastic programmer that continuously finds the most efficient ways to solve problems. Two passions of mine are Math and Computer Science. My current expertise is Full-Stack Development, but have recently set my sights on creating Artificial Intelligence applications, specifically Machine Learning applications.
         </p>
         <ul class="actions first">
           <li><a href="#" id="about" class="button">About me</a></li>
@@ -132,13 +132,9 @@ function fromAboutPage() {
             <ul class="labeled-icons">
               <li>
                 <h3 class="icon fa-home"><span class="label">Address</span></h3>
-                Spring, TX 77388
+                Houston, TX
                 <br />
                 United States
-              </li>
-              <li>
-                <h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
-                832-515-7091
               </li>
               <li>
                 <h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
